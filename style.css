@@ -124,21 +124,32 @@ ul.nav {
 	}
 
 	ul.nav > li > a{
-		font-size: 11px;
+		font-size: 12px;
+		margin:8px;
 	}
 
 	.scroll_down{
 		top:110%;
 	}
 
-	p{
+	p, .curriculum{
 		font-size:11px;
+	}
+
+	ul.nav{
+		justify-content: center;
 	}
 
 	h2{
 		font-size:20px;
 	}
+
+	.box, .boximg{
+		width:250px;
+	}
 }
+
+
 
 
 
