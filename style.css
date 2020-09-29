@@ -21,9 +21,9 @@ html{
 	transform: translate(-50%, -50%);
 	margin-top:1.5%;
 }
-img{
+img.frontPic{
 	width:600px;
-	}
+}
 
 h1{
 	font-size:35px;
@@ -71,4 +71,48 @@ ul.nav {
 	justify-content: flex-end;
 	margin-top:1%;
 }
+.flex{
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	flex-wrap:wrap;
+}
+
+.box{
+	width:280px;
+	height:280px;
+	margin:30px;
+	background-color:white;
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+	text-align:center;
+}
+
+.box:hover{
+	transform: scale(1.05);
+}
+
+.sampleProj{
+	display:block;
+	margin:0 auto;
+	text-align: left;
+	width:70%;
+}
+
+
+.boximg{
+	margin-top:10%;
+	width:280px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
