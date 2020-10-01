@@ -1,9 +1,3 @@
-/*
-https://static.dribbble.com/users/279765/screenshots/6394444/girlworking_2x_2x.png
-https://www.kindpng.com/picc/m/370-3704903_programmer-illustration-hd-png-download.png
-https://effortz.com/images/resource/illustration-20.png
-ttps://image.freepik.com/free-vector/pair-programming-concept-illustration_114360-1812.jpg
-*/
 *{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
@@ -80,7 +74,7 @@ ul.nav {
 	height:280px;
 	margin:30px;
 	background-color:white;
-	box-shadow: 12px 12px 5px 1px rgba(0, 0, 255, .2);
+	box-shadow: 9px 10px 5px 0px rgba(0, 0, 255, .2);
 	text-align:center;
 }
 
@@ -101,7 +95,35 @@ ul.nav {
 	width:280px;
 }
 
+.details{
+	font-size:16px;
+}
 
+.register{
+	display:block;
+	margin:0 auto 70 auto;
+	width:200px;
+	height:50px;
+	background-color:#BFCFFF;
+	color:black;
+	font-weight: 400;
+	border-radius:4px;
+	text-decoration: none;
+	border:white;
+}
+
+button:hover{
+	transform: scale(1.05);
+}
+
+button:focus {
+	outline:0;
+}
+
+
+.box{
+	box-shadow: 9px 10px 10px 0px rgba(0, 0, 255, .2);
+}
 
 @media only screen and (max-width: 600px) and (min-width:415px) {
 	img.frontPic {
@@ -132,7 +154,7 @@ ul.nav {
 		top:110%;
 	}
 
-	p, .curriculum{
+	.details{
 		font-size:11px;
 	}
 
