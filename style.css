@@ -63,6 +63,11 @@ ul.nav {
 	margin-top:1%;
 }
 
+a.main{
+	justify-content: flex-start;	
+
+}
+
 .flex{
 	display:flex;
 	flex-direction:row;
@@ -83,12 +88,6 @@ ul.nav {
 	transform: scale(1.05);
 }
 
-.sampleProj{
-	display:block;
-	margin:0 auto;
-	text-align: left;
-	width:70%;
-}
 
 .boximg{
 	margin-top:10%;
@@ -139,9 +138,12 @@ footer{
 }
 
 .here:hover{
-	text-decoration: underline;
+	color:#ea6a91;
 }
 
+.sampleProj{
+	font-size:21px;
+}
 
 
 @media only screen and (max-width: 600px) and (min-width:415px) {
@@ -174,7 +176,7 @@ footer{
 	}
 
 	.details{
-		font-size:11px;
+		font-size:13px;
 	}
 
 	ul.nav{
@@ -188,6 +190,16 @@ footer{
 	.box, .boximg{
 		width:250px;
 	}
+
+	.about{
+		width:75%;
+	}
+
+	footer{
+		height:40px;
+		padding-top:20px;
+	}
+
 }
 
 
