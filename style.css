@@ -129,15 +129,15 @@ a.main{
 	cursor:pointer;
 	margin-top:50px;
 	position: relative;
-    padding-top: 48px;
-    padding-right: 24px;
-    padding-bottom: 48px;
-    padding-left: 24px;
-    height: 50%;
-    width: 75%;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 4px;
+	padding-top: 48px;
+	padding-right: 24px;
+	padding-bottom: 48px;
+	padding-left: 24px;
+	height: 50%;
+	width: 75%;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 4px;
 }
 
 h2.reg, h2.reg2{
@@ -212,14 +212,14 @@ h2{
 }
 
 #background {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 98%;
-    height:40%;
-    background-color: #BFCFFF; 
-    opacity:.9;
-    padding:1%;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 98%;
+	height:40%;
+	background-color: #BFCFFF; 
+	opacity:.9;
+	padding:1%;
 }
 
 h1.program {
@@ -235,41 +235,41 @@ h1.program {
 }
 
 input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
 }
 
 textarea {
-  width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: white;
-  resize: none;
-  margin:8px 0 8px 0;
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: white;
+	resize: none;
+	margin:8px 0 8px 0;
 }
 
 input[type=submit] {
-  width: 100%;
-  background-color: #BFCFFF;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+	width: 100%;
+	background-color: #BFCFFF;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
 }
 
 
 input[type=submit]:hover {
-  background-color: #A6BCFF;
+	background-color: #A6BCFF;
 }
 
 
@@ -365,8 +365,26 @@ input[type=submit]:hover {
 
 }
 
+@media only screen and (max-width: 321px) {
 
+	#background{
+		height:50%;
+	}
 
+	h1.program{
+		width:64%;
+	}
+
+	ul.nav > li > a{
+		margin:3px;
+		font-size:10px;
+	}
+
+	img.girlWorking{
+		left:14%;
+	}
+
+}
 
 
 
