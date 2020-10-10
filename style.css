@@ -288,7 +288,7 @@ input[type=submit]:hover {
 		width: 350px;
 	}
 
-	h1{
+	h1.shehacks{
 		top:4%;
 		font-size:27px;
 	}
@@ -325,6 +325,42 @@ input[type=submit]:hover {
 	footer{
 		height:40px;
 		padding-top:20px;
+	}
+
+	#background{
+		height:35%
+	}
+
+	h1.program{
+		width:57%;
+	}
+
+	ul.nav > li > a{
+		font-size:11px;
+		margin:5px;
+	}
+
+	.register{
+		height:550px;
+	}
+
+	img.girlWorking{
+		width:200px;
+		height:150px;
+		top:70%;
+		left:18%;
+	}
+
+	h2.reg{
+		top:13%;
+	}
+
+	h2.reg2{
+		top:26%;
+	}
+
+	a.regLink{
+		top:48%;
 	}
 
 }
