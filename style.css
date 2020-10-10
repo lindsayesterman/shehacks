@@ -205,6 +205,7 @@ footer{
 	display: block;
 	margin:50 auto 0 auto;
 	text-align: center;
+	padding:10px;
 }
 
 h2{
@@ -272,6 +273,42 @@ input[type=submit]:hover {
 	background-color: #A6BCFF;
 }
 
+@media only screen and (max-width: 1000px) {
+
+	img.girlWorking{
+		width:330px;
+		height:260px;
+		top:58%;
+		left:30%;
+		transform: translate(-50px, -50px);
+	}
+
+	h2.reg{
+		left:30%;
+		top:20%;
+		font-size:25px;
+		transform: translate(-50px, -50px);
+	}
+
+	h2.reg2{
+		left:30%;
+		font-size:25px;
+		top:29%;
+		transform: translate(-50px, -50px);
+	}
+
+	a.regLink{
+		left:30%;
+		top:44%;
+		transform: translate(-50px, -50px);
+	}
+
+	.register{
+		height:500px;
+	}
+
+}
+
 
 @media only screen and (max-width: 600px) and (min-width:415px) {
 	img.frontPic {
@@ -282,6 +319,7 @@ input[type=submit]:hover {
 		font-size:29px;
 	}
 }
+
 
 @media only screen and (max-width: 414px) {
 	img.frontPic {
