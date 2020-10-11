@@ -25,6 +25,13 @@ h1.shehacks{
 	font-weight: 400;
 }
 
+h3.shehacks{
+	display:block;
+	margin:0 auto;
+	text-align: center;
+	width:50%;
+}
+
 .front-page{
 	height:100%;
 	width:100%;
@@ -271,6 +278,10 @@ input[type=submit] {
 
 input[type=submit]:hover {
 	background-color: #A6BCFF;
+}
+
+ul.weekCur > li {
+	margin-bottom:20px;
 }
 
 @media only screen and (max-width: 1000px) {
