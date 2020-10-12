@@ -69,11 +69,6 @@ ul.nav {
 	margin-top:1%;
 }
 
-a.main{
-	justify-content: flex-start;	
-
-}
-
 .flex{
 	display:flex;
 	flex-direction:row;
@@ -131,19 +126,13 @@ a.main{
 	font-weight: 400;
 	border-radius:4px;
 	text-decoration: none;
-	border:white;
 	cursor:pointer;
 	margin-top:50px;
 	position: relative;
-	padding-top: 48px;
-	padding-right: 24px;
-	padding-bottom: 48px;
-	padding-left: 24px;
+	padding: 48px 24px;
 	height: 50%;
 	width: 75%;
 	margin: auto;
-	margin-top: 50px;
-	border-radius: 4px;
 }
 
 h2.reg, h2.reg2{
@@ -207,10 +196,11 @@ footer{
 }
 
 .sampleProj{
-	font-size:21px;
+	font-size:20px;
 	display: block;
 	margin:50 auto 0 auto;
 	text-align: center;
+	font-weight: 400;
 	padding:10px;
 }
 
