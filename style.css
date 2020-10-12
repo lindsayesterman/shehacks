@@ -377,11 +377,11 @@ ul.weekCur > li {
 	}
 
 	#background{
-		height:35%
+		height:40%
 	}
 
 	h1.program{
-		width:57%;
+		width:80%;
 	}
 
 	ul.nav > li > a{
@@ -390,18 +390,18 @@ ul.weekCur > li {
 	}
 
 	.register{
-		height:550px;
+		height:400px;
 	}
 
 	img.girlWorking{
-		width:200px;
-		height:150px;
-		top:70%;
-		left:18%;
+		width:250px;
+		height:190px;
+		top:65%;
+		left:25%;
 	}
 
 	h2.reg{
-		top:13%;
+		top:21%;
 	}
 
 	h2.reg2{
@@ -409,7 +409,12 @@ ul.weekCur > li {
 	}
 
 	a.regLink{
-		top:48%;
+		top:47%;
+		left:34%;
+	}
+
+	h3.shehacks{
+		width:90%;
 	}
 
 }
