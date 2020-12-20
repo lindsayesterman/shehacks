@@ -1,434 +1,419 @@
-*{
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
-html{
-	background-color: #F9F9F9;
+html {
+  background-color: #f9f9f9;
 }
 
-.intro{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	margin-top:1.5%;
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 1.5%;
 }
 
-h1.shehacks{
-	font-size:38px;
-	position: absolute;
-	top: 9%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-weight: 400;
+h1.shehacks {
+  font-size: 38px;
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
 }
 
-h3.shehacks{
-	display:block;
-	margin:0 auto;
-	text-align: center;
-	width:50%;
+h3.shehacks {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
 }
 
-.front-page{
-	height:100%;
-	width:100%;
+.front-page {
+  height: 100%;
+  width: 100%;
 }
 
 .scroll_down {
-	text-align: center;
-	width:100px;
-	margin-left:-50px;
-	position: absolute;
-	bottom:20px;
-	left:50%;
+  text-align: center;
+  width: 100px;
+  margin-left: -50px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
 }
 
-.about{
-	display:block;
-	margin:0 auto;
-	width:60%;
+img.frontPic {
+  width: 500px;
 }
 
-
-ul.nav > li > a{
-	text-decoration: none;
-	font-size: 15px;
-	font-weight: 300;
-	color: black;
-	margin:10px;
+.about {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
 }
 
+ul.nav > li > a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+  margin: 10px;
+}
 
 ul.nav {
-	list-style: none;
-	display:flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	margin-top:1%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 1%;
 }
 
-.flex{
-	display:flex;
-	flex-direction:row;
-	justify-content: center;
-	flex-wrap:wrap;
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.weekNum{
-	font-weight: 400;
-	font-size:23px;
-	text-align:center;
+.weekNum {
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
 }
 
-.weekCur{
-	line-height: 1.3;
-	margin-right:19px;
+.weekCur {
+  line-height: 1.3;
+  margin-right: 19px;
 }
 
-.week{
-	width:280px;
-	height:280px;
-	margin:30px;
-	background-color:white;
-	border:1px solid black;
+.week {
+  width: 280px;
+  height: 280px;
+  margin: 30px;
+  background-color: white;
+  border: 1px solid black;
 }
 
-.box{
-	width:280px;
-	height:280px;
-	margin:30px;
-	background-color:white;
-	border: 1px solid #e1e4e8;
-	text-align:center;
+.box {
+  width: 280px;
+  height: 280px;
+  margin: 30px;
+  background-color: white;
+  border: 1px solid #e1e4e8;
+  text-align: center;
 }
 
-.box:hover{
-	transform: scale(1.05);
+.box:hover {
+  transform: scale(1.05);
 }
 
-
-.boximg{
-	margin-top:10%;
-	width:280px;
+.boximg {
+  margin-top: 10%;
+  width: 280px;
 }
 
-.details{
-	font-size:16px;
+.details {
+  font-size: 16px;
 }
 
-.register{
-	display:block;
-	max-width:1000px;
-	background-color:#BFCFFF;
-	color:black;
-	font-weight: 400;
-	border-radius:4px;
-	text-decoration: none;
-	cursor:pointer;
-	margin-top:50px;
-	position: relative;
-	padding: 48px 24px;
-	height: 50%;
-	width: 75%;
-	margin: auto;
+.register {
+  display: block;
+  max-width: 1000px;
+  background-color: #bfcfff;
+  color: black;
+  font-weight: 400;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 50px;
+  position: relative;
+  padding: 48px 24px;
+  height: 50%;
+  width: 75%;
+  margin: auto;
 }
 
-h2.reg, h2.reg2{
-	font-size:33px;
+h2.reg,
+h2.reg2 {
+  font-size: 33px;
 }
 
-h2.reg{
-	position:absolute;
-	top:23%;
-	left:13%;
+h2.reg {
+  position: absolute;
+  top: 23%;
+  left: 13%;
 }
 
-h2.reg2{
-	position:absolute;
-	top:33%;
-	left:13%;
+h2.reg2 {
+  position: absolute;
+  top: 33%;
+  left: 13%;
 }
 
-
-a.regLink{
-	font-size:16px;
-	position:absolute;
-	top:53%;
-	left:17%;
-	width:190px;
-	padding-top:20px;
-	height:40px;
-	text-align: center;
-	background-color: white;
-	text-decoration: none;
-	color:black;
-	border-radius: 10px;
+a.regLink {
+  font-size: 16px;
+  position: absolute;
+  top: 53%;
+  left: 17%;
+  width: 190px;
+  padding-top: 20px;
+  height: 40px;
+  text-align: center;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
 }
 
-img.girlworking{
-	width:400px;
-	height:300px;
-	position:absolute;
-	top:10%;
-	left:48%;
+img.girlworking {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 10%;
+  left: 48%;
 }
 
-footer{
-	width:100%;
-	margin-top:100px;
-	text-align:center;
-	height:60px;
-	background-color:white;
-	color:gray;
-	padding-top:40px;
+footer {
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+  height: 60px;
+  background-color: white;
+  color: gray;
+  padding-top: 40px;
 }
 
-
-.here{
-	color:blue;
-	cursor:pointer;
+.here {
+  color: blue;
+  cursor: pointer;
 }
 
-.here:hover{
-	color:#ea6a91;
+.here:hover {
+  color: #ea6a91;
 }
 
-.sampleProj{
-	font-size:20px;
-	display: block;
-	margin:50 auto 0 auto;
-	text-align: center;
-	font-weight: 400;
-	padding:10px;
+.sampleProj {
+  font-size: 20px;
+  display: block;
+  margin: 50 auto 0 auto;
+  text-align: center;
+  font-weight: 400;
+  padding: 10px;
 }
 
-h2{
-	font-weight: 400;
+h2 {
+  font-weight: 400;
 }
 
 #background {
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 98%;
-	height:40%;
-	background-color: #BFCFFF; 
-	opacity:.9;
-	padding:1%;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 98%;
+  height: 40%;
+  background-color: #bfcfff;
+  opacity: 0.9;
+  padding: 1%;
 }
 
 h1.program {
-	display:block;
-	margin:110px auto 0 auto;
-	width:62%;
-	font-weight:400;
-	font-size:40px;
+  display: block;
+  margin: 110px auto 0 auto;
+  width: 62%;
+  font-weight: 400;
+  font-size: 40px;
 }
 
-.about{
-	padding-top:35px;
+.about {
+  padding-top: 35px;
 }
 
-input[type=text] {
-	width: 100%;
-	padding: 12px 20px;
-	margin: 8px 0;
-	display: inline-block;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	box-sizing: border-box;
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 textarea {
-	width: 100%;
-	height: 150px;
-	padding: 12px 20px;
-	box-sizing: border-box;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	background-color: white;
-	resize: none;
-	margin:8px 0 8px 0;
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  resize: none;
+  margin: 8px 0 8px 0;
 }
 
-input[type=submit] {
-	width: 100%;
-	background-color: #BFCFFF;
-	color: white;
-	padding: 14px 20px;
-	margin: 8px 0;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
+input[type="submit"] {
+  width: 100%;
+  background-color: #bfcfff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-
-input[type=submit]:hover {
-	background-color: #A6BCFF;
+input[type="submit"]:hover {
+  background-color: #a6bcff;
 }
 
 ul.weekCur > li {
-	margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1000px) {
+  img.girlWorking {
+    width: 330px;
+    height: 260px;
+    top: 58%;
+    left: 30%;
+    transform: translate(-50px, -50px);
+  }
 
-	img.girlWorking{
-		width:330px;
-		height:260px;
-		top:58%;
-		left:30%;
-		transform: translate(-50px, -50px);
-	}
+  h2.reg {
+    left: 30%;
+    top: 20%;
+    font-size: 25px;
+    transform: translate(-50px, -50px);
+  }
 
-	h2.reg{
-		left:30%;
-		top:20%;
-		font-size:25px;
-		transform: translate(-50px, -50px);
-	}
+  h2.reg2 {
+    left: 30%;
+    font-size: 25px;
+    top: 29%;
+    transform: translate(-50px, -50px);
+  }
 
-	h2.reg2{
-		left:30%;
-		font-size:25px;
-		top:29%;
-		transform: translate(-50px, -50px);
-	}
+  a.regLink {
+    left: 30%;
+    top: 44%;
+    transform: translate(-50px, -50px);
+  }
 
-	a.regLink{
-		left:30%;
-		top:44%;
-		transform: translate(-50px, -50px);
-	}
-
-	.register{
-		height:500px;
-	}
-
+  .register {
+    height: 500px;
+  }
 }
 
-
-@media only screen and (max-width: 600px) and (min-width:415px) {
-	img.frontPic {
-		width: 500px;
-	}
-
-	h1{
-		font-size:29px;
-	}
+@media only screen and (max-width: 600px) and (min-width: 415px) {
+  h1 {
+    font-size: 29px;
+  }
 }
-
 
 @media only screen and (max-width: 414px) {
-	img.frontPic {
-		width: 350px;
-	}
+  img.frontPic {
+    width: 350px;
+  }
 
-	h1.shehacks{
-		top:4%;
-		font-size:27px;
-	}
+  h1.shehacks {
+    top: 4%;
+    font-size: 27px;
+  }
 
-	ul.nav > li > a{
-		font-size: 12px;
-		margin:8px;
-	}
+  ul.nav > li > a {
+    font-size: 12px;
+    margin: 8px;
+  }
 
-	.scroll_down{
-		top:110%;
-	}
+  .scroll_down {
+    top: 110%;
+  }
 
-	.details{
-		font-size:13px;
-	}
+  .details {
+    font-size: 13px;
+  }
 
-	ul.nav{
-		justify-content: center;
-	}
+  ul.nav {
+    justify-content: center;
+  }
 
-	h2{
-		font-size:20px;
-	}
+  h2 {
+    font-size: 20px;
+  }
 
-	.box, .boximg{
-		width:250px;
-	}
+  .box,
+  .boximg {
+    width: 250px;
+  }
 
-	.about{
-		width:75%;
-	}
+  .about {
+    width: 75%;
+  }
 
-	footer{
-		height:40px;
-		padding-top:20px;
-	}
+  footer {
+    height: 40px;
+    padding-top: 20px;
+  }
 
-	#background{
-		height:40%
-	}
+  #background {
+    height: 40%;
+  }
 
-	h1.program{
-		width:80%;
-	}
+  h1.program {
+    width: 80%;
+  }
 
-	ul.nav > li > a{
-		font-size:11px;
-		margin:5px;
-	}
+  ul.nav > li > a {
+    font-size: 11px;
+    margin: 5px;
+  }
 
-	.register{
-		height:400px;
-	}
+  .register {
+    height: 400px;
+  }
 
-	img.girlWorking{
-		width:250px;
-		height:190px;
-		top:65%;
-		left:25%;
-	}
+  img.girlWorking {
+    width: 250px;
+    height: 190px;
+    top: 65%;
+    left: 25%;
+  }
 
-	h2.reg{
-		top:21%;
-	}
+  h2.reg {
+    top: 21%;
+  }
 
-	h2.reg2{
-		top:26%;
-	}
+  h2.reg2 {
+    top: 26%;
+  }
 
-	a.regLink{
-		top:47%;
-		left:34%;
-	}
+  a.regLink {
+    top: 47%;
+    left: 34%;
+  }
 
-	h3.shehacks{
-		width:90%;
-	}
-
+  h3.shehacks {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 321px) {
+  #background {
+    height: 50%;
+  }
 
-	#background{
-		height:50%;
-	}
+  h1.program {
+    width: 64%;
+  }
 
-	h1.program{
-		width:64%;
-	}
+  ul.nav > li > a {
+    margin: 3px;
+    font-size: 10px;
+  }
 
-	ul.nav > li > a{
-		margin:3px;
-		font-size:10px;
-	}
-
-	img.girlWorking{
-		left:14%;
-	}
-
+  img.girlWorking {
+    left: 14%;
+  }
 }
-
-
-
-
